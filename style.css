@@ -36,4 +36,22 @@ body {
 header {
   margin-top: 20px;
   position: relative;
+  z-index: 40;
+}
+
+/* Services / Meet the Team */
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul > li {
+  border: 2px solid var(--deep-sea);
+  border-radius: var(--radius);
+  background-color: var(--glass);
+  padding: 22px;
+  margin: 12px;
 }
