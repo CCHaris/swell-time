@@ -56,6 +56,31 @@ ul > li {
   margin: 12px;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--deep-sea);
+  color: white;
+}
+
 a {
   color: inherit;
+}
+
+.team-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 8px 0 4px 0;
+}
+
+.team-title {
+  font-style: italic;
+  color: var(--muted);
+  margin: 0 0 12px 0;
+}
+
+.team-bio {
+  font-size: 0.9em;
+  line-height: 1.4em;
 }
